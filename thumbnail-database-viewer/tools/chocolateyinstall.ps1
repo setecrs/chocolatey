@@ -1,1 +1,1 @@
-Install-ChocolateyZipPackage 'thumbnail-database-viewer' 'http://www.itsamples.com/downloads/thumbnail-database-viewer.zip' "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+Install-ChocolateyZipPackage 'thumbnail-database-viewer' 'http://www.itsamples.com/downloads/thumbnail-database-viewer.zip' -Checksum 'cce8207c419d66ed926b66ae973f94211d18af9359de1c68038b6a07efa297be' -ChecksumType 'sha256' "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
